@@ -1,0 +1,422 @@
+body {
+  background-color: #6fc276;
+  background-size: cover;
+}
+.keyboard-rectangle {
+  /* Height + Width Settings */
+  height: 40vh;
+  max-height: 50vh;
+  width: 115vw;
+  max-width: 150vw;
+  /* Dimension Settings */
+  display: block;
+  border: 5px solid rgba(255, 255, 255, 0.524);
+  border-radius: 25px;
+  margin-left: 10%;
+  margin-top: 25%;
+  padding-bottom: 50px;
+  /* Background */
+  background-color: black;
+}
+p {
+  font-family: "Sriracha", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#hr1 {
+  margin-top: -10px;
+  background-color: black;
+  width: 100%;
+  position: sticky;
+}
+
+#hr2,
+#hr3,
+#hr4,
+#hr5,
+#hr6 {
+  margin-top: 5vh;
+  background-color: black;
+  width: 100%;
+  position: sticky;
+}
+
+.first-row {
+  /* Styling */
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 5px;
+  /* Positioning */
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 1vh;
+  padding: 1vh;
+  position: sticky;
+  /* Width + Height Values */
+  width: 2.5%;
+  max-width: 2.5%;
+  max-height: 9.2%;
+  height: 9.2%;
+  text-align: center;
+}
+
+.second-row,
+.third-row,
+.fourth-row,
+.fifth-row,
+.sixth-row {
+  /* Styling */
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 5px;
+  /* Positioning */
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 1vh;
+  padding: 1vh;
+  position: sticky;
+  /* Width + Height Values */
+  width: 2.5%;
+  max-width: 100%;
+  max-height: 15%;
+  height: 9.2%;
+  text-align: center;
+}
+
+#f1-key,
+#f5-key,
+#f9-key {
+  margin-left: 6vh;
+}
+
+.first-row-div {
+  display: inline;
+  width: 10%;
+  max-width: 100%;
+}
+
+.second-row-div,
+.third-row-div,
+.fourth-row-div,
+.fifth-row-div,
+.sixth-row-div {
+  display: inline-block;
+  margin-top: -15px;
+  width: 100%;
+  max-width: 100%;
+}
+
+#print-screen-key {
+  background-image: url("Print Screen.svg");
+  background-size: cover;
+  margin-left: 6vh;
+}
+
+/* Individual Keys Below For Adding Images / Color */
+
+/* General Key Colors*/
+#esc-key,
+#grave-accent-key,
+#tab-key,
+#caps-lock-key,
+#shift-key1,
+#ctrl-key1 {
+  border: 4.5px solid rgba(255, 0, 0, 0.5);
+}
+
+#f1-key,
+#one-key,
+#q-key,
+#a-key,
+#z-key,
+#windows-key {
+  border: 4.5px solid rgba(255, 75, 0, 0.5);
+}
+
+#f2-key,
+#two-key,
+#w-key,
+#s-key,
+#x-key,
+#alt-key1 {
+  border: 4.5px solid rgba(255, 142, 0, 0.5);
+}
+
+#f3-key,
+#three-key,
+#e-key,
+#d-key,
+#c-key,
+#space-bar-key {
+  border: 4.5px solid rgba(255, 206, 0, 0.5);
+}
+
+#f4-key,
+#four-key,
+#r-key,
+#f-key,
+#v-key {
+  border: 4.5px solid rgba(211, 255, 0, 0.5);
+}
+
+#f5-key,
+#five-key,
+#t-key,
+#g-key,
+#b-key {
+  border: 4.5px solid rgba(99, 255, 0, 0.5);
+}
+
+#f6-key,
+#six-key,
+#y-key,
+#h-key,
+#n-key {
+  border: 4.5px solid rgba(0, 255, 115, 0.5);
+}
+
+#f7-key,
+#seven-key,
+#u-key,
+#j-key,
+#m-key {
+  border: 4.5px solid rgba(0, 255, 216, 0.5);
+}
+
+#f8-key,
+#eight-key,
+#nine-key,
+#i-key,
+#o-key,
+#k-key,
+#l-key,
+#comma-key,
+#period-key,
+#alt-key2 {
+  border: 4.5px solid rgba(0, 178, 255, 0.5);
+}
+
+#f9-key,
+#zero-key,
+#p-key,
+#semi-colon-key,
+#fowardslash2-key,
+#fn-key {
+  border: 4.5px solid rgba(0, 107, 255, 0.5);
+}
+
+#f10-key,
+#minus-key,
+#left-bracket-key,
+#right-bracket-key,
+#tick-key,
+#back-slash-key,
+#shift-key2,
+#ctrl-key2 {
+  border: 4.5px solid rgba(0, 21, 255, 0.5);
+}
+
+#f11-key,
+#equal-key {
+  border: 4.5px solid rgba(57, 0, 255, 0.5);
+}
+#f12-key,
+#backspace-key,
+#enter-key {
+  border: 4.5px solid rgba(177, 0, 255, 0.5);
+}
+#print-screen-key,
+#delete-key,
+#insert-key,
+#left-arrow-key {
+  border: 4.5px solid rgba(218, 0, 255, 0.5);
+}
+#scroll-lock-key,
+#home-key,
+#end-key,
+#up-arrow-key,
+#down-arrow-key {
+  border: 4.5px solid rgba(255, 0, 195, 0.5);
+}
+#pause-break-key,
+#page-up-key,
+#page-down-key,
+#right-arrow-key,
+#zero-numpad-key,
+#del-key {
+  border: 4.5px solid rgba(255, 0, 90, 0.5);
+}
+
+/* General key colors ends below */
+
+#print-screen-key {
+  background-image: url("Print Screen.svg");
+  background-size: cover;
+}
+
+#scroll-lock-key {
+  background-image: url("Scroll Lock Key.webp");
+  background-size: cover;
+}
+
+#pause-break-key {
+  background-image: url("Pause Break Key.webp");
+  background-size: cover;
+}
+
+/* Second Row Keys */
+
+#grave-accent-key {
+  background-image: url("grave-accent-key.webp");
+  background-size: cover;
+}
+
+#backspace-key {
+  background-image: url("back-space-key.webp");
+  background-size: cover;
+  width: 5%;
+  max-width: 5%;
+  min-width: 5%;
+}
+
+#insert-key {
+  background-image: url("insert-key.webp");
+  background-size: cover;
+  margin-left: 4.7vh;
+}
+
+#home-key {
+  background-image: url("home-key.webp");
+  background-size: cover;
+}
+
+#page-up-key {
+  background-image: url("page-up-key.webp");
+  background-size: cover;
+}
+
+#num-lock-key {
+  background-image: url("num-lock-key.webp");
+  background-size: cover;
+  margin-left: 6.8vh;
+}
+
+#fowardslash1-key,
+#asterisk-key,
+#eight-numpad-key,
+#nine-numpad-key,
+#num-lock-key,
+#seven-numpad-key,
+#four-numpad-key,
+#five-numpad-key,
+#six-numpad-key,
+#one-numpad-key,
+#two-numpad-key,
+#three-numpad-key {
+  border: 4.5px solid rgba(255, 0, 0, 0.5);
+}
+
+/* Keyboard Row 3 */
+#plus-key {
+  height: 100px;
+}
+
+#tab-key {
+  background-image: url("tab-key.webp");
+  background-size: cover;
+}
+
+#enter-key {
+  background-image: url("enter-key.webp");
+  background-size: cover;
+}
+
+#delete-key {
+  background-image: url("delete-key.webp");
+  background-size: cover;
+  margin-left: 10.8vh;
+}
+
+#page-down-key {
+  background-image: url("page-down-key.webp");
+  background-size: cover;
+}
+
+#seven-numpad-key {
+  margin-left: 6.8vh;
+}
+
+/* Row 4 Keys */
+
+#caps-lock-key {
+  background-image: url("caps-lock-key.webp");
+  background-size: cover;
+}
+
+#four-numpad-key {
+  margin-left: 58.2vh;
+}
+
+#shift-key1 {
+  background-image: url("shift-key.webp");
+  background-size: cover;
+}
+
+#shift-key2 {
+  background-image: url("shift-key.webp");
+  background-size: cover;
+  width: 7.2%;
+}
+
+#up-arrow-key {
+  background-image: url("up-arrow-key.webp");
+  background-size: cover;
+  margin-left: 30.5vh;
+}
+
+#one-numpad-key {
+  margin-left: 17.4vh;
+}
+/* Sixth Row Keys */
+
+#windows-key {
+  background-image: url("windows-key.webp");
+  background-size: cover;
+}
+
+#space-bar-key {
+  width: 23.5%;
+}
+
+#ctrl-key2 {
+  width: 5%;
+}
+
+#left-arrow-key {
+  background-image: url("left-arrow.webp");
+  background-size: cover;
+  margin-left: 26.4vh;
+}
+
+#down-arrow-key {
+  background-image: url("down-arrow.webp");
+  background-size: cover;
+}
+
+#right-arrow-key {
+  background-image: url("right-arrow.webp");
+  background-size: cover;
+}
+
+#del-key {
+  background-image: url("del-key.webp");
+  background-size: cover;
+}
+
+#zero-numpad-key {
+  margin-left: 6.8vh;
+  width: 7%;
+}
