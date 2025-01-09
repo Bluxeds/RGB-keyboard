@@ -7,7 +7,7 @@ Notes:
 
   - Fix the Print Screen, Scroll Lock, and Pause Break keys and make them aligned with all the other keys. ✅
 
-  - Change the background image of the keyboard to something nicer once all the keys are added in and colored.  🚧
+  - Change the background image of the keyboard to something nicer once all the keys are added in and colored.  ✅
 
-  - Make a Github file with all my projects starting with this one as my first ever project. 🚧
+  - Make a Github file with all my projects starting with this one as my first ever project. ✅
 
